@@ -15,8 +15,8 @@ singlist = [13]
 labellist = []
 
 frame = 0
-idleframes = [tk.PhotoImage(file="./idle4.gif", format = "gif -index %i" %(i)) for i in range(24)]
-idleframes2 = [tk.PhotoImage(file="./idle5.gif", format = "gif -index %i" %(i)) for i in range(24)]
+idleframes = [tk.PhotoImage(file=r"./idle4.gif", format = "gif -index %i" %(i)) for i in range(24)]
+idleframes2 = [tk.PhotoImage(file=r"./idle5.gif", format = "gif -index %i" %(i)) for i in range(24)]
 
 def idle():
     global frames
